@@ -28,6 +28,13 @@ npm i
 
 # Step 4: Start the development server
 npm run dev
+
+
+
+## Testing using Jest
+
+# Step 1: Run tests
+npm test
 ```
 
 ## Features
