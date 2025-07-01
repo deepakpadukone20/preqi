@@ -5,7 +5,7 @@
     "noEmit": true,
     "skipLibCheck": true,
     "useDefineForClassFields": true,
-    "types": ["node"],
+    "types": ["node", "jest", "@testing-library/jest-dom"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
@@ -13,13 +13,13 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "target": "ES2020",
-    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "verbatimModuleSyntax": true,
-    /* type checking */
+    "verbatimModuleSyntax": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true
   },
-  "include": ["src"]
+  "include": ["src", "src/tests/**/*.ts", "src/tests/**/*.tsx"]
 }

@@ -32,7 +32,7 @@ export const userApi = {
   async deleteUser(id: string): Promise<void> {
     // Your FastAPI server currently does not support DELETE,
     // this is optional depending on future changes.
-    console.warn('DELETE endpoint not implemented in backend');
+    console.warn('DELETE endpoint not implemented in backend',id);
     return Promise.resolve();
   },
 };
