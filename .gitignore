@@ -17,3 +17,4 @@ dist/
 
 src/backend/myenv
 src/backend/__pycache__
+.env

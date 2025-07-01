@@ -1,6 +1,6 @@
 import type { User, CreateUserDto, UpdateUserDto } from '@/types/user';
 
-const API_URL = 'http://localhost:8000/users';
+const API_URL = `${import.meta.env.VITE_API_URL}/users`;
 
 export const userApi = {
   async getUsers(): Promise<User[]> {
