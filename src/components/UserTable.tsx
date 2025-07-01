@@ -195,7 +195,7 @@ const UserTable = ({ users, onEditUser, loading }: UserTableProps) => {
                   {users.map((user, index) => (
                     <TableRow
                       key={user.id}
-                      className="transition-colors hover:bg-gray-50 focus-within:bg-gray-50"
+                      className="transition-colors hover:bg-gray-200 dark:hover:bg-gray-800/50 focus-within:bg-gray-200/80 dark:focus-within:bg-gray-800"
                       tabIndex={0}
                       role="row"
                       aria-rowindex={index + 2}
