@@ -15,4 +15,5 @@ dist/
 !.vscode/extensions.json
 .idea
 
-src/backend/
+src/backend/myenv
+src/backend/__pycache__

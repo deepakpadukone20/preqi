@@ -1,57 +1,82 @@
 # User Management System
 
-A modern user management application built with React and TypeScript.
+A modern user management application built with React, TypeScript, and FastAPI.
 
-## Technologies Used
+---
 
-This project is built with:
+## 🌐 Frontend Setup
 
+### Technologies Used
 - Rsbuild
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
 
-## Getting Started
-
-Follow these steps to run the project locally:
-
-```sh
+### Getting Started
+```bash
 # Step 1: Clone the repository
-git clone
+git clone <repository-url>
 
 # Step 2: Navigate to the project directory
-cd
+cd <frontend-directory>
 
 # Step 3: Install the necessary dependencies
-npm i
+npm install
 
 # Step 4: Start the development server
 npm run dev
+```
 
-
-
-## Testing using Jest
-
-# Step 1: Run tests
+### Testing with Jest
+```bash
+# Run tests
 npm test
 ```
 
-## Features
+---
 
+## ⚙️ Backend Setup (FastAPI)
+
+> See file: `src/backend/README.md`
+
+### Quick Start
+```bash
+# Step 1: Create and activate a virtual environment
+
+# macOS/Linux
+python3 -m venv myenv
+source myenv/bin/activate
+
+# Windows
+python -m venv myenv
+myenv\Scripts\activate
+
+# Step 2: Install dependencies
+pip install -r requirements.txt
+
+# Step 3: Run the FastAPI app
+uvicorn main:app --reload
+```
+
+---
+
+## 🚀 Features
 - User management with CRUD operations
-- Responsive design
-- Accessible UI components
+- Responsive and accessible UI components
 - Form validation
-- Data persistence
+- Persistent user data
 
-## Development
+---
 
-The application uses modern React patterns and TypeScript for type safety. The UI is built with Tailwind CSS and shadcn/ui components for a consistent design system.
+## 🛠 Development
+Built with modern web development practices:
+- React + TypeScript for scalable UI logic
+- Tailwind CSS + shadcn/ui for utility-first styling
+- FastAPI for robust Python backend
 
-## Learn more
+---
 
-To learn more about Rsbuild, check out the following resources:
-
-- [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
-- [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
+## 📚 Learn More
+- [Rsbuild Docs](https://rsbuild.rs)
+- [Rsbuild GitHub](https://github.com/web-infra-dev/rsbuild)
